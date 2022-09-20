@@ -93,7 +93,10 @@ class JankenPon():
             print(f'結果 : {self.jidge_sts[jidge_key]}')
 
 
-if __name__ == '__main__':
+def main():
     janken = JankenPon()
     janken.start_playing()
     janken.final_result()
+
+if __name__ == '__main__':
+    main()
