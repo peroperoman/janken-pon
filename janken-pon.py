@@ -20,7 +20,7 @@ class JankenPon():
         """
         while True:
             try:
-                counts = int(input('ジャンケンする回数を入力してください。(整数 : 1～10) > '))
+                counts = int(input('ジャンケンポンする回数を入力してください。(整数 : 1～10) > '))
                 if 1 <= counts <= 10:
                     break
                 else:
